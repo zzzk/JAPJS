@@ -1,7 +1,3 @@
-
-<p id="constructor"></p>
-
-<script>
 function Person(first, last) {
     this.firstName = first;
     this.lastName = last;
@@ -11,10 +7,4 @@ function Person(first, last) {
 var myFather = new Person("John", "Doe");
 var myMother = new Person("Sally", "Silver");
 
-
-document.getElementById("constructor").innerHTML =
-"My father is " + myFather.name(); 
-</script>
-
-</body>
-</html>
+console.log(myFather.name());
